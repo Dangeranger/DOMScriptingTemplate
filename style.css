@@ -1,0 +1,36 @@
+/* css goes here */
+
+body {
+  text-align: center;
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#header {
+  height: 20vh;
+  background-color: pink;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 45vh;
+}
+
+#content {
+  background-color: chartreuse;
+  width: 60vw;
+}
+
+#sideBar {
+  background-color: darkgoldenrod;
+}
+
+#footer {
+  height: 20vh;
+  background-color: blueviolet;
+}
