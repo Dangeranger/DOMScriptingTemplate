@@ -7,6 +7,7 @@
     <title>DOM Scripting!</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <section id="header">
       <h1>Hello, World!</h1>
@@ -15,13 +16,32 @@
     <section id="main">
       <div id="content">
         <p>Lets put some stuff here to tinker with!</p>
+        <div id="orderwrapper">
+          <h3>Ticket Order:</h3>
+          <div id="ticketOrder"></div>
+        </div>
+        
+        <!-- <button type = "button" id = "tinker" onclick = "alert('test')">testy</button> -->
       </div>
       <div id="sideBar">
-          <h2>My side bar for css play! </h2>
+        <h2>My side bar for css play!</h2>
+        <div id="magicWrapper">
+          <button onclick='alert("hello")' type="button" id="presto">
+            Presto!
+          </button>
+          <button type="button" id="abra">Abra!</button>
+        </div>
       </div>
     </section>
+
     <section id="footer">
-        <h1>Footer!!</h1>
+      <h1>Footer!!</h1>
+      <form id="input-form" method="POST">
+        <h4>please give name</h4>
+        <input id="userName" type="text" name="name" placeholder="name please" />
+        <button id="tickets" type="submit">take ticket</button>
+      </form>
     </section>
   </body>
+  <script src="index.js"></script>
 </html>
